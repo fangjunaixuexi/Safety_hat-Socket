@@ -14,7 +14,7 @@ public class Location {
 	private String transmission_time;
 	private int signal_intensity;
 	private int alarm_value;
-	private int state;
+	private String state;
 	private int battery_voltage;
 	private int battery_level;
 	public int getData_length() {
@@ -89,10 +89,10 @@ public class Location {
 	public void setAlarm_value(int alarm_value) {
 		this.alarm_value = alarm_value;
 	}
-	public int getState() {
+	public String getState() {
 		return state;
 	}
-	public void setState(int state) {
+	public void setState(String state) {
 		this.state = state;
 	}
 	public int getBattery_voltage() {
